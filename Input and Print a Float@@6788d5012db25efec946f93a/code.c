@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main()
-a=3.14
 {
     float a;
-    
+    printf("enter value of a:",a)
     scanf("%f",&a);
     printf("\nYou entered: %f",a);
     return 0;
