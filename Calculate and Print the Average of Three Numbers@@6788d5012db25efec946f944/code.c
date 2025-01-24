@@ -6,6 +6,6 @@ int main()
     scanf("%d",&b);
     scanf("%d",&c);
     avg=(a+b+c)/3;
-    printf("Average: %d.10",avg);
+    printf("Average: %.2d",avg);
     return 0;
 }
