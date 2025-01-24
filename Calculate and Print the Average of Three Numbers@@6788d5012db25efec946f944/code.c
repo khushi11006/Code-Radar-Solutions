@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int a,b,c,avg;
     scanf("%d",&a);
@@ -7,4 +7,5 @@ void main()
     scanf("%d",&c);
     avg=(a+b+c)/3;
     printf("%d",avg);
+    return 0;
 }
