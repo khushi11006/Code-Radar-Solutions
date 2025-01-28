@@ -9,4 +9,5 @@ int main()
         printf("valid");
     }
     else{printf("Invalid");}
+    return 0;
 }
