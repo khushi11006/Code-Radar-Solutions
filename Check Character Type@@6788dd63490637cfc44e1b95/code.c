@@ -9,7 +9,7 @@ int main()
     else if(a != "AEIOU" && a !="aeiou"){
         printf("Consonant");
     }
-    else if(a == "0123456789")
+    else if(a>=0 && a<=9)
     {
         printf("Digit");
     }
