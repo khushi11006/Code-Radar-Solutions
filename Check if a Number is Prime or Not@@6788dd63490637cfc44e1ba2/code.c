@@ -22,6 +22,9 @@ int main()
     else if(a%7==0){
         printf("Not Prime");
     }
+    else if(a%11==0){
+        printf("Not Prime");
+    }
     else{
         printf("Prime");
     }
