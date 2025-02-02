@@ -13,6 +13,16 @@ int main()
     else if (a%2 == 0){
         printf("Not Prime");
     }
+    else if(a%3==0){
+        printf("Not Prime");
+    }
+    else if(a%5==0)
+    {
+        printf("Not Prime");
+    }
+    else if(a%7==0){
+        printf("Not Prime");
+    }
     else{
         printf("Prime");
     }
