@@ -18,7 +18,7 @@ int main(){
             printf("%d",a / b);
         }
         else{
-            printf("invalid\n");
+            printf("error\n");
         }
     }
     else{
