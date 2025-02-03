@@ -34,7 +34,7 @@ int main()
     }
     else
     {
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
