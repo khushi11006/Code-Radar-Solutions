@@ -3,8 +3,6 @@ int main(){
     int a,b;
     char sign;
     scanf("%d %d %c", &a, &b, &sign);
-    
-    getchar();
     if (sign == '+'){
         printf("%d\n", a + b);
     }
