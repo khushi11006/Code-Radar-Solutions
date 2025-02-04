@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a,lsb;
+    int a;
     scanf("%d",&a);
+    int lsb = a & 1;
     scanf("%d",&lsb);
-    printf("%d=%d", a, a & 1);
+    printf("%d=%d", a, lsb);
 }
