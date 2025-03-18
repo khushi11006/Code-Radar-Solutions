@@ -5,9 +5,11 @@ int main()
     scanf("%d",&a);
     for (int i=1;i<=a;i++)
     {
-        for(int j=i;j>=a-i+1;j--)
+        for(int j=i;j<=i;j++)
         {
-            printf("%d ", j);
+            if((i+j) % 2 ==0)
+            {printf("%d ", j);
+            }
         }
         printf("\n");
     }
