@@ -8,7 +8,11 @@ int main()
         for(int j=i;j<=i;j++)
         {
             if((i+j) % 2 ==0)
-            {printf("%d ", j);
+            {printf("1 ");
+            }
+            else
+            {
+                printf("0");
             }
         }
         printf("\n");
