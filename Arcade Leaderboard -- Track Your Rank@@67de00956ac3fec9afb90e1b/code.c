@@ -20,8 +20,7 @@ void calculateRanks(int leaderboard[], int n, int scores[], int m) {
         printf("%d\n", index + 2);
     }
 }
-
-int main() 
+int main()
 {
     int n, m;
     
