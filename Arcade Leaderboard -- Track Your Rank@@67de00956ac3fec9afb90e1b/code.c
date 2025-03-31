@@ -23,24 +23,17 @@ void calculateRanks(int leaderboard[], int n, int scores[], int m) {
 int main()
 {
     int n, m;
-    
-    printf("Enter number of leaderboard scores: ");
     scanf("%d", &n);
     int leaderboard[n];
-    printf("Enter leaderboard scores: ");
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &leaderboard[i]);
     }
-    
-    printf("Enter number of your game scores: ");
     scanf("%d", &m);
     int scores[m];
-    printf("Enter your game scores: ");
     for (int i = 0; i < m; i++) {
         scanf("%d", &scores[i]);
     }
-    
-    printf("Your ranks after each game:\n");
     calculateRanks(leaderboard, n, scores, m);
     
     return 0;
