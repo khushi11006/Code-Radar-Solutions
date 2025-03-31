@@ -21,7 +21,8 @@ void calculateRanks(int leaderboard[], int n, int scores[], int m) {
     }
 }
 
-int main() {
+int main() 
+{
     int n, m;
     
     printf("Enter number of leaderboard scores: ");
