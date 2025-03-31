@@ -31,7 +31,8 @@ int main()
     }
     scanf("%d", &m);
     int scores[m];
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < m; i++)
+    {
         scanf("%d", &scores[i]);
     }
     calculateRanks(leaderboard, n, scores, m);
