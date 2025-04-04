@@ -1,17 +1,22 @@
-#include <stdbool.h>
-
-bool isNonDescending(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        if (arr[i] > arr[i + 1]) {
-            return false;
-        }
-    }
-    return true;
-}
-
+#include <stdio.h>
 int main() {
-    int arr[] = {1, 2, 2, 3, 4};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    return isNonDescending(arr, n);  // returns 1 if sorted, 0 if not
+    int n,Sorted=1;
+scanf("%d ",&n);
+int arr[n];
+   for(int i=0;i<n;i++){
+    scanf("%d",&arr[i]);
+   }
+for(int i=0;i<n-1;i++){
+    if(arr[i]>arr[i+1]){
+       Sorted=0;
+       break;
+    }
+}
+if (Sorted){
+    printf("Sorted\n");
+}
+else{
+     printf("Not Sorted\n");
+}
+    return 0;
 }
