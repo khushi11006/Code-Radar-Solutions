@@ -23,3 +23,5 @@ int main() {
 
     if (peakIndex != -1) {
         printf("%d\n", arr[peakIndex]);
+    }
+}
