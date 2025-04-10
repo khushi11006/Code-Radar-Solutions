@@ -19,10 +19,8 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int peakIndex = findFirstPeak(arr, n);
-
-    // Print the index and the value (optional)
     if (peakIndex != -1) {
-        printf("First peak element is %d at index %d\n", arr[peakIndex], peakIndex);
+        printf(" %d ", arr[peakIndex],);
     } else {
         printf("No peak element found.\n");
     }
