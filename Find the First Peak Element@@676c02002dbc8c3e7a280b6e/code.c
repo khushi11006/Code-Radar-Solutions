@@ -20,7 +20,7 @@ int main() {
 
     int peakIndex = findFirstPeak(arr, n);
     if (peakIndex != -1) {
-        printf(" %d ", arr[peakIndex],);
+        printf(" %d ", arr[peakIndex]);
     } else {
         printf("No peak element found.\n");
     }
