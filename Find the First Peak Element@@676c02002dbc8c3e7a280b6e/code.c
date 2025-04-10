@@ -15,7 +15,7 @@ int findFirstPeak(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {1, 3, 20, 4, 1, 0};
+    int arr[] = {1, 3, 20, 4, 1, 0, 2 ,5, 10};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int peakIndex = findFirstPeak(arr, n);
